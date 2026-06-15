@@ -1,0 +1,5 @@
+# Created at 2026-06-15T13:42:45.853
+Boot Manifest-JAR contains absolute paths in classpath 'D:\UPChexk\2026-I\Fundamentos_Arquitectura_Software\TF\orion-notification-service\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
