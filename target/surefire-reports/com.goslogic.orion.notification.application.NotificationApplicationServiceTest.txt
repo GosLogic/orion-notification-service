@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.goslogic.orion.notification.application.NotificationApplicationServiceTest
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.253 s -- in com.goslogic.orion.notification.application.NotificationApplicationServiceTest
