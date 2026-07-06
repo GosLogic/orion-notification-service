@@ -14,3 +14,8 @@ spring:
 
   activemq:
     in-memory: true
+
+  jms:
+    pub-sub-domain: true
+    listener:
+      auto-startup: false
