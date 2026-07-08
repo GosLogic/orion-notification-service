@@ -20,6 +20,14 @@ import static org.assertj.core.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.*;
 
+/**
+ * Unit tests de la capa de aplicación del Notification Service.
+ * <p>
+ * Estas pruebas garantizan la <strong>Trazabilidad de alertas críticas y el
+ * aislamiento multi-tenant en la comunicación</strong>:
+ * persistencia del historial, envío vía EmailAdapter, renderizado por
+ * TemplateManager y normalización de tipos.
+ */
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.LENIENT)
 class NotificationApplicationServiceTest {

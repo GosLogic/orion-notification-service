@@ -79,7 +79,7 @@ public class NotificationApplicationService {
         return notification;
     }
 
-    static NotificationType parseType(String raw) {
+    public static NotificationType parseType(String raw) {
         if (raw == null || raw.isBlank()) {
             return NotificationType.INFO;
         }
